@@ -20,5 +20,6 @@ Including another URLconf
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("", views.index, name="index"),
+    path("", views.signup, name="signup"),
+    # path("details", views.details, name="details"),
 ]
